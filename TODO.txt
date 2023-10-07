@@ -1,0 +1,6 @@
+
+Before doing any math-heavy checks for ray intersections on circles;
+- FOV check for each circle (check if any corner is within FOV)
+- Bounding Box Check for each sphere (check if any faces are visible by camera)
+and then ray intersection check
+
